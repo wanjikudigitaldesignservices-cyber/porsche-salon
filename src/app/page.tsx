@@ -17,7 +17,7 @@ export default function Home() {
       <section className={styles.hero}>
         <div className={styles.heroOverlay}></div>
         <Image 
-          src="https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=2069&auto=format&fit=crop"
+          src="/hero.jpg"
           alt="Premium salon experience"
           fill
           priority
