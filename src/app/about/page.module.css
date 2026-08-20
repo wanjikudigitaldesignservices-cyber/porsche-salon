@@ -1,0 +1,103 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 120px 24px 80px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  color: var(--color-neutral-500);
+  font-size: 1.1rem;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .content {
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+  }
+}
+
+.imageSection {
+  position: relative;
+}
+
+.mainImageWrapper {
+  position: relative;
+  aspect-ratio: 4/5;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.image {
+  object-fit: cover;
+}
+
+.textSection h2 {
+  font-size: 2.2rem;
+  margin-bottom: 24px;
+}
+
+.textSection p {
+  color: var(--color-neutral-500);
+  line-height: 1.7;
+  font-size: 1.05rem;
+  margin-bottom: 24px;
+}
+
+.values {
+  margin-top: 40px;
+  padding-top: 40px;
+  border-top: 1px solid var(--color-neutral-300);
+}
+
+.values h3 {
+  font-size: 1.5rem;
+  margin-bottom: 24px;
+}
+
+.valueList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.valueList li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.checkIcon {
+  color: var(--color-gold);
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.valueList span {
+  color: var(--color-black-light);
+  line-height: 1.5;
+}
+
+.actions {
+  display: flex;
+  gap: 16px;
+  margin-top: 48px;
+}
