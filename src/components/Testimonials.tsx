@@ -12,7 +12,7 @@ const testimonials = [
     review: "The wig quality was amazing and the installation was even better. I absolutely loved the final look. Highly recommended!",
     service: "Wig Installation",
     rating: 5,
-    image: "https://images.unsplash.com/photo-1531123897727-8f129e1bf32c?q=80&w=200&auto=format&fit=crop"
+    image: "/gallery-hair.jpg"
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const testimonials = [
     review: "Porsche Salon has the best stylists in Kilimani. They treat your natural hair with so much care before braiding.",
     service: "Knotless Braids",
     rating: 5,
-    image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=200&auto=format&fit=crop"
+    image: "/gallery-hair.jpg"
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const testimonials = [
     review: "I bought their Brazilian Body Wave wig and the hair is so soft and doesn't tangle. The customer service was also top notch.",
     service: "Wig Purchase",
     rating: 5,
-    image: "https://images.unsplash.com/photo-1589156229687-496a31ad1d1f?q=80&w=200&auto=format&fit=crop"
+    image: "/gallery-hair.jpg"
   }
 ];
 

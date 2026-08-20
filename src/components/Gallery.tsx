@@ -5,12 +5,12 @@ import Image from "next/image";
 import styles from "./Gallery.module.css";
 
 const galleryImages = [
-  { id: 1, category: "Wigs", src: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?q=80&w=800&auto=format&fit=crop" },
-  { id: 2, category: "Hair", src: "https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=800&auto=format&fit=crop" },
-  { id: 3, category: "Salon", src: "https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=800&auto=format&fit=crop" },
-  { id: 4, category: "Makeup", src: "https://images.unsplash.com/photo-1516975080661-46bce0a1492f?q=80&w=800&auto=format&fit=crop" },
-  { id: 5, category: "Nails", src: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=800&auto=format&fit=crop" },
-  { id: 6, category: "Products", src: "https://images.unsplash.com/photo-1596462502278-27bf85033e5a?q=80&w=800&auto=format&fit=crop" },
+  { id: 1, category: "Wigs", src: "/wig-1.jpg" },
+  { id: 2, category: "Hair", src: "/gallery-hair.jpg" },
+  { id: 3, category: "Salon", src: "/about.jpg" },
+  { id: 4, category: "Makeup", src: "/gallery-hair.jpg" },
+  { id: 5, category: "Nails", src: "/hero.jpg" },
+  { id: 6, category: "Products", src: "/wig-1.jpg" },
 ];
 
 const filters = ["All", "Hair", "Wigs", "Nails", "Makeup", "Products", "Salon"];

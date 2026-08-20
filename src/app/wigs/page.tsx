@@ -7,12 +7,12 @@ import styles from "./page.module.css";
 import { useState } from "react";
 
 const wigs = [
-  { id: 1, name: "Brazilian Body Wave", price: "KES 18,500", rating: 5, category: "Human Hair", image: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?q=80&w=800&auto=format&fit=crop" },
-  { id: 2, name: "Straight Lace Front", price: "KES 22,000", rating: 4, category: "Lace Front", image: "https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=800&auto=format&fit=crop" },
-  { id: 3, name: "Curly Bob", price: "KES 15,000", rating: 5, category: "Bob", image: "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?q=80&w=800&auto=format&fit=crop" },
-  { id: 4, name: "Blonde Highlights Deep Wave", price: "KES 25,000", rating: 5, category: "Colored", image: "https://images.unsplash.com/photo-1595476108010-b4d1f10d5e43?q=80&w=800&auto=format&fit=crop" },
-  { id: 5, name: "Glueless Straight", price: "KES 19,500", rating: 4, category: "Glueless", image: "https://images.unsplash.com/photo-1620330132338-232145e3c79a?q=80&w=800&auto=format&fit=crop" },
-  { id: 6, name: "Burgundy Deep Curly", price: "KES 21,000", rating: 5, category: "Colored", image: "https://images.unsplash.com/photo-1605980776566-0486c3ac7617?q=80&w=800&auto=format&fit=crop" },
+  { id: 1, name: "Brazilian Body Wave", price: "KES 18,500", rating: 5, category: "Human Hair", image: "/wig-1.jpg" },
+  { id: 2, name: "Straight Lace Front", price: "KES 22,000", rating: 4, category: "Lace Front", image: "/wig-1.jpg" },
+  { id: 3, name: "Curly Bob", price: "KES 15,000", rating: 5, category: "Bob", image: "/wig-1.jpg" },
+  { id: 4, name: "Blonde Highlights Deep Wave", price: "KES 25,000", rating: 5, category: "Colored", image: "/wig-1.jpg" },
+  { id: 5, name: "Glueless Straight", price: "KES 19,500", rating: 4, category: "Glueless", image: "/wig-1.jpg" },
+  { id: 6, name: "Burgundy Deep Curly", price: "KES 21,000", rating: 5, category: "Colored", image: "/wig-1.jpg" },
 ];
 
 const categories = ["All", "Human Hair", "Lace Front", "Glueless", "Bob", "Colored"];

@@ -4,10 +4,10 @@ import { Star, ShoppingBag } from "lucide-react";
 import styles from "./BeautyProducts.module.css";
 
 const products = [
-  { id: 1, name: "Argan Oil Hair Serum", price: "KES 2,500", rating: 5, category: "Hair Care", image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?q=80&w=800&auto=format&fit=crop" },
-  { id: 2, name: "Hydrating Facial Cleanser", price: "KES 1,800", rating: 4, category: "Skin Care", image: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?q=80&w=800&auto=format&fit=crop" },
-  { id: 3, name: "Professional Edge Control", price: "KES 1,200", rating: 5, category: "Hair Care", image: "https://images.unsplash.com/photo-1599305090598-fe179d501227?q=80&w=800&auto=format&fit=crop" },
-  { id: 4, name: "Luxury Wig Care Kit", price: "KES 4,500", rating: 5, category: "Accessories", image: "https://images.unsplash.com/photo-1526947425960-945c6e72858f?q=80&w=800&auto=format&fit=crop" },
+  { id: 1, name: "Argan Oil Hair Serum", price: "KES 2,500", rating: 5, category: "Hair Care", image: "/wig-1.jpg" },
+  { id: 2, name: "Hydrating Facial Cleanser", price: "KES 1,800", rating: 4, category: "Skin Care", image: "/gallery-hair.jpg" },
+  { id: 3, name: "Professional Edge Control", price: "KES 1,200", rating: 5, category: "Hair Care", image: "/wig-1.jpg" },
+  { id: 4, name: "Luxury Wig Care Kit", price: "KES 4,500", rating: 5, category: "Accessories", image: "/gallery-hair.jpg" },
 ];
 
 export default function BeautyProducts() {

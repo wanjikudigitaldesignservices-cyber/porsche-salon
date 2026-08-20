@@ -86,8 +86,8 @@ export default function Home() {
           <div className={styles.aboutGrid}>
             <div className={styles.aboutImageWrapper}>
               <Image 
-                src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=2069&auto=format&fit=crop"
-                alt="Salon Interior"
+                src="/about.jpg"
+                alt="Porsche Salon Kilimani Interior"
                 fill
                 className={styles.aboutImage}
               />
@@ -132,24 +132,29 @@ export default function Home() {
           </div>
           
           <div className={styles.productGrid}>
-            {[1, 2, 3, 4].map((i) => (
+            {[
+              { name: "Brazilian Body Wave", price: "KES 18,500", badge: "New", image: "/wig-1.jpg" },
+              { name: "Straight Lace Front", price: "KES 22,000", badge: "Best Seller", image: "/wig-1.jpg" },
+              { name: "Curly Bob Wig", price: "KES 15,000", badge: "Sale", image: "/wig-1.jpg" },
+              { name: "Deep Wave Blonde", price: "KES 25,000", badge: "Premium", image: "/wig-1.jpg" },
+            ].map((wig, i) => (
               <div key={i} className={styles.productCard}>
                 <div className={styles.productImageWrapper}>
                   <Image 
-                    src={`https://images.unsplash.com/photo-1519699047748-de8e457a634e?q=80&w=1000&auto=format&fit=crop`}
-                    alt="Wig Product"
+                    src={wig.image}
+                    alt={wig.name}
                     fill
                     className={styles.productImage}
                   />
-                  <div className={styles.productBadge}>New</div>
+                  <div className={styles.productBadge}>{wig.badge}</div>
                 </div>
                 <div className={styles.productInfo}>
-                  <h4>Brazilian Body Wave Wig</h4>
+                  <h4>{wig.name}</h4>
                   <div className={styles.productRating}>
                     {[...Array(5)].map((_, i) => <Star key={i} size={14} fill="#C5A059" color="#C5A059" />)}
                   </div>
                   <div className={styles.productPrice}>
-                    <span className={styles.currentPrice}>KES 18,500</span>
+                    <span className={styles.currentPrice}>{wig.price}</span>
                   </div>
                   <button className={styles.addToCartBtn}>Add to Cart</button>
                 </div>
